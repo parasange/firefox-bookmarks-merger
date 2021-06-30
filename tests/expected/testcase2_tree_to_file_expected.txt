@@ -1,0 +1,18 @@
+	
+		Bookmarks Menu
+			Recent Tags - place:type=6&sort=14&maxResults=10
+			----
+			Mozilla Firefox
+				Get Involved - https://www.mozilla.org/en-US/contribute/
+				Help and Tutorials - https://www.mozilla.org/en-US/firefox/help/
+				About Us - https://www.mozilla.org/en-US/about/
+		Bookmarks Toolbar
+			Most Visited - place:sort=8&maxResults=10
+			----
+			Directory
+				Getting Started - https://www.mozilla.org/en-US/firefox/central/
+		Other Bookmarks
+			About Us - https://www.mozilla.org/en-US/about/
+			Help and Tutorials - https://www.mozilla.org/en-US/firefox/help/
+			Mozilla Firefox Double Folder
+				Mozilla - https://www.mozilla.org
