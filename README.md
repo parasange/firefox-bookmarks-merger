@@ -19,10 +19,10 @@ Tree structures of several input files can be written into a single output files
 separately. If no output file is given, one is created automatically.
 
 
-`python bookmarks_merger --list --files tests/testcase1.json`
-`python bookmarks_merger --list --files tests/testcase1.json --output testcase1.txt`
-`python bookmarks_merger --list --files tests/testcase1.json tests/testcase2.json --output testcases.txt`
-`python bookmarks_merger --list --files tests/testcase1.json tests/testcase2.json --output testcase1.txt testcase2.txt` 
+`python bookmarks_merger --list --files tests/testcase1.json`\
+`python bookmarks_merger --list --files tests/testcase1.json --output testcase1.txt`\
+`python bookmarks_merger --list --files tests/testcase1.json tests/testcase2.json --output testcases.txt`\
+`python bookmarks_merger --list --files tests/testcase1.json tests/testcase2.json --output testcase1.txt testcase2.txt`
 
 [Example output](https://github.com/parasange/firefox-bookmarks-merger/blob/master/tests/expected/testcase1_tree_to_file_expected.txt)
 
@@ -32,8 +32,8 @@ Cleans one or more files from duplicated bookmarks and folders. Duplicated bookm
 modified date is kept. Duplicated folders are merged into a single one. Output files are of .json format.
 If no output file is given, one or more are created automatically.
 
-`python bookmarks_merger --clean --files tests/testcase1.json`
-`python bookmarks_merger --clean --files tests/testcase1.json --output tests/testcase1_cleaned.json`
+`python bookmarks_merger --clean --files tests/testcase1.json`\
+`python bookmarks_merger --clean --files tests/testcase1.json --output tests/testcase1_cleaned.json`\
 `python bookmarks_merger --clean --files tests/testcase1.json tests/testcase2.json --output tests/testcase1_cleaned.json tests/testcase2_cleaned.json`
 
 
@@ -44,7 +44,7 @@ Merges two or more files into one single file. First one is considered "primary"
 There is no removal of duplicated bookmarks and folders.
 If no output file is given, one is created automatically.
 
-`python bookmarks_merger --merge --files tests/testcase1.json tests/testcase2.json`
+`python bookmarks_merger --merge --files tests/testcase1.json tests/testcase2.json`\
 `python bookmarks_merger --merge --files tests/testcase1.json tests/testcase2.json --output tests/testcases_merged.json`
 
 
@@ -54,7 +54,7 @@ Merges two or more files into one single file and removes duplicated bookmarks a
 modified date is kept. Duplicated folders are merged into a single one. Output files are of .json format.
 If no output file is given, one is created automatically.
 
-`python bookmarks_merger --merge --clean --files tests/testcase1.json tests/testcase2.json`
+`python bookmarks_merger --merge --clean --files tests/testcase1.json tests/testcase2.json`\
 `python bookmarks_merger --merge --clean --files tests/testcase1.json tests/testcase2.json --output tests/testcases_merged.json`
 
 #### (Sort)
